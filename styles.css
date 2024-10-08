@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1100ff;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid rgba(16, 240, 229, 0.979);
+    margin-right: 20px;
+    transition: transform 0.3s;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+}
+
+.info h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+.info .social-icons {
+    margin-top: 10px;
+}
+
+.info .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.info .social-icons a:hover {
+    color: #e0e0e0;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    background-color: #1100ff;
+    color: rgb(10, 241, 191);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.education, .hobbies {
+    margin-top: 10px;
+}
+
+.edu-item, .hobby-item {
+    background-color: #e7f1ff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.skills {
+    margin-top: 10px;
+}
+
+.skill {
+    margin: 10px 0;
+}
+
+.progress-bar {
+    background-color: #e7f1ff;
+    border-radius: 5px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: #4c00ff;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 20px; /* Vertically center text */
+    transition: width 0.4s;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
